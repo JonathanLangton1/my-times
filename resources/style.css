@@ -84,12 +84,12 @@ p {
   border: 1px solid black;
   padding: 0;
   position: absolute;
+  z-index: 10;
 }
 
 .text-over-image2 {
   border: 1px solid black;
   padding: 0;
-  z-index: 2;
 }
 
 .text-over-image3 {
@@ -154,5 +154,5 @@ p.absolute {
 
 .picture1 {
   position: relative;
-  z-index: 10;
+  z-index: -2;
 }
