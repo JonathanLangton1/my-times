@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  font-family: Verdana;
+}
+
+header {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 30px;
+  border-bottom: 1px solid black;
+}
+
+nav {
+  flex: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 10px;
+}
+
+nav li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 0px;
+}
+
+a {
+  color: black;
+}
+
+.my-times {
+  color: MediumAquamarine;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+li {
+  padding-right: 20px;
+}
+
+#right {
+  right: 300px;
+  position: absolute;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 15px;
+  border: 1px solid black;
+  flex-direction: column;
+  width: 630px;
+
+}
+
+.left1 {
+  border: 1px solid black;
+}
+
+.left2 {
+  border: 1px solid black;
+}
+
+h2 {
+  padding: 15px 0px 15px 0px;
+}
+
+p {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.text-over-image {
+  border: 1px solid black;
+  padding: 0;
+  position: absolute;
+}
+
+.text-over-image2 {
+  border: 1px solid black;
+  padding: 0;
+  z-index: 2;
+}
+
+.text-over-image3 {
+  border: 1px solid black;
+  padding: 0;
+}
+
+.text-over-image4 {
+  border: 1px solid black;
+  padding: 0;
+}
+
+.container2 {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 1px solid black;
+  flex-direction: column;
+  width: 300px;
+}
+
+.right1 {
+  border: 1px solid black;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.container3 {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 1px solid black;
+  flex-direction: column;
+  width: 240px;
+}
+
+.right3 {
+  border: 1px solid black;
+}
+
+.cookie {
+  width: 100%;
+  height: 100%;
+}
+
+.right4 {
+  border: 1px solid black;
+}
+
+p.news-bites {
+  padding-bottom: 0;
+}
+
+p.absolute {
+  padding: 0;
+}
+
+.picture1 {
+  position: relative;
+  z-index: 10;
+}
